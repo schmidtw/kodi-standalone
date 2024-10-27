@@ -36,8 +36,6 @@ STOP
 
 
 %install
-echo rm -rf %{buildroot}
-
 # install kodi flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub tv.kodi.Kodi
