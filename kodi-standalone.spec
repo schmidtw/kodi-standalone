@@ -69,7 +69,6 @@ STOP
 
 
 %pre
-%systemd_pre kodi-wayland.service
 
 %post
 %systemd_post kodi-wayland.service
