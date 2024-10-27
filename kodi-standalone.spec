@@ -37,8 +37,8 @@ STOP
 
 %install
 # install kodi flatpak
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub tv.kodi.Kodi
+#flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+#flatpak install flathub tv.kodi.Kodi
 
 %{__install} -d %{buildroot}%{_sysconfdir}/kodi
 
