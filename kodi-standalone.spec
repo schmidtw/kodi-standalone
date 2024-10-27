@@ -64,6 +64,8 @@ flatpak install flathub tv.kodi.Kodi
 %{_sysusersdir}/kodi-sysusers.conf
 %{_udevrulesdir}/99-kodi.rules
 %{_unitdir}/kodi-wayland.service
+%{_tmpfilesdir}/kodi-standalone.conf
+%{_presetdir}/84-kodi-standalone.preset
 
 %config %{_sysconfdir}/kodi/kodi-standalone
 
